@@ -11,14 +11,18 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@mantine/core": "^6.0.0",
+    "@mantine/hooks": "^6.0.0",
     "@netlify/remix-adapter": "^2.5.1",
+    "@pilar_test_1024/test10282024": "^1.0.1",
     "@remix-run/node": "^2.12.1",
     "@remix-run/react": "^2.12.1",
     "@types/node": "^20.14.8",
     "classnames": "^2.5.1",
     "isbot": "^4",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "test10282024": "^1.0.0"
   },
   "devDependencies": {
     "@remix-run/dev": "^2.12.1",

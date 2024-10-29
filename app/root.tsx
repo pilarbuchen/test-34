@@ -9,6 +9,7 @@ import {
 } from '@remix-run/react';
 import { ErrorComponent } from '~/components/error-component/error-component';
 import '~/styles/index.scss';
+import { MantineProvider, Button } from '@mantine/core';
 
 export function Layout({ children }: { children: React.ReactNode }) {
     return (
@@ -31,6 +32,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
 export default function App() {
     return (
         <div>
+            <MantineProvider>
+                <Button variant="filled">Click Me</Button>
+            </MantineProvider>
             <Outlet />
         </div>
     );
